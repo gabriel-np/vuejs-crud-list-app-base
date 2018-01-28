@@ -1,0 +1,58 @@
+#app {
+  font-family: sans-serif;
+  max-width: 600px;
+}
+input {
+  line-height: 40px;
+  font-size: 16px;
+  padding-left: 5px;
+  border: thin solid #67758a;
+  border-radius: 5px;
+}
+#task-input input {
+  min-width: 475px;
+}
+button {
+  background-color: #67758a;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+button.text {
+  background-color: transparent;
+  margin-top: -6px;
+  color: #cc00cc;
+}
+button.text:hover {
+  color: #9a009a;
+}
+hr {
+  border: 3px solid #aaaaaa;
+  border-radius: 3px;
+  margin: 20px 0;
+}
+#show-completed {
+  margin: 10px 0 20px;
+}
+.task {
+  min-height: 24px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.task:hover {
+  background-color: #cccccc;
+}
+
+.striked {
+  text-decoration: line-through;
+  color: #67758a;
+}
+.hidden {
+  display: none;
+}
+.pull-right {
+  float: right;
+}
